@@ -1,5 +1,20 @@
 # MES
+### To start you virtual environment follow this directions:
+#### On windows:
+1. Upgrade pip
+ ` py -m pip install --upgrade pip `
+2. Install virtualenv
+ ` py -m pip install --user virtualenv `
+3. Start virtual env
+ ` py -m venv env `
+4. Activate your virtual environment
+` .\env\Scripts\activate `
+5. Install all modules:
+` pip install -r requirements.txt `
 
+#### To run the ImgDownload Python script:
+1. Change the queries based on the images needed then:
+` py imgDownload.py `
 ## Inference Engine Rules:
 
 If the user sets a limit to the number of images displayed, then the search results will display a limited number of pages
