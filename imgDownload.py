@@ -4,10 +4,10 @@ from google_images_download import google_images_download
 imgObject = google_images_download.googleimagesdownload()
 
 search_queries = [
-    'juventus jersey',
-    'juventus uniform',
-    '''juventus players''',
-    'juventus camiseta',
+    'juventus juan cuadrado',
+    '''buffon goalkeeper juventus''',
+    '''atletico madrid diego costa''',
+    '''paris keylor navas''',
 ]
 
 
@@ -21,7 +21,7 @@ def downloadImages(query):
     # Aspect Ratio of the images to download. ("tall, square, wide, panoramic")
 
     arguments = {"keywords": query,
-                 "format": "jpg",
+                 "format": "gif",
                  "limit": 100,
                  "print_urls": True,
                  "size": "medium",
